@@ -1,0 +1,52 @@
+@import url(reset.css);
+
+.nav-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nav-bar div {
+	padding: 8px;
+	border: 1px solid red;
+}
+
+.nav-bar div img { /*logo Youtube*/
+	width: 90px;
+	height: 20px;
+}
+
+.nav-bar div input { /* botão de pesquisa */
+	font-size: 27px;
+	max-width: 348px;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+}
+
+#video {
+	width: 720px;
+	height: 450px;
+	margin-top: 1rem;
+	border: 1px solid red;
+}
+
+#videos-tumbnails {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+
+.tumbnails {
+	display: flex;
+	flex-direction: column;
+}
+
+.descricao {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid red;
+}
